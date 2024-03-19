@@ -49,7 +49,9 @@ The Exploratory Data Analysis (EDA) involved exploring the Data to answer some q
 - Overall sales trend
 - Minimum, Maximum, Average and Count of sales
 
-![](assignment )
+![](assignment 1.JPG)
+
+
 ```Google sheets
 
 SELECT *
