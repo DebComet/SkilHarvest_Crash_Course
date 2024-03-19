@@ -8,7 +8,7 @@ Here, I documented all I learnt and practiced during my course at SkilHarvest_Bo
 2. [Data Source](#data-source)
 3. [Tools Used](#tools-used)
 4. [Data Cleaning and Preparation](#data-cleaning-and-preparation)
-5. [EDA](#eda)
+5. [Exploratory Data Analysis](#exploratory-data-analysis)
 6. [Data Analysis](#data-analysis)
 7. [Results / Findings](#results-/-findings)
 8. [Recommendations](#recommendations)
