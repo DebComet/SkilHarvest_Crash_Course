@@ -83,7 +83,7 @@ The data, on observation had no missing values, irrelevant columns, duplicate ro
 
     6. **Query the minimum, maximum, average, count and total sales**
 
-       
+    ![assignment 6](https://github.com/DebComet/SkilHarvest_Crash_Course/assets/158510031/5f57bac9-6439-4dd0-97b2-1334ca0a5d1b)   
     
        
 Use SQL-like syntax to filter, aggregate, and manipulate the data as needed to derive insights.
