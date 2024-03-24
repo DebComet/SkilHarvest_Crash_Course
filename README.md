@@ -79,10 +79,12 @@ The data, on observation had no missing values, irrelevant columns, duplicate ro
 
        `=QUERY(A:H, "SELECT B, C WHERE (C= 'Pen Set' OR C= 'Binders')", 1)`
 
+       ![new assignment 5](https://github.com/DebComet/SkilHarvest_Crash_Course/assets/158510031/62b55f96-c8a3-406b-b480-914f31fdc72d)
 
+    6. **Query the minimum, maximum, average, count and total sales**
 
-
-
+       
+    
        
 Use SQL-like syntax to filter, aggregate, and manipulate the data as needed to derive insights.
 Analysis and Visualization:
