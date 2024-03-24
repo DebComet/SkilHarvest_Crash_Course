@@ -37,7 +37,7 @@ The Stationary Supplies Dataset utilized in this analysis encompasses sales data
 ---
 - I imported the dataset into Google Sheets.
 
-
+![stationary dataset](https://github.com/DebComet/SkilHarvest_Crash_Course/assets/158510031/42a1d2b3-7664-4862-86ab-51b62117d211)
 
 - I ensured that the dataset included sales data within  2014 and 2015 and covers information about sales reps within three regions.
 
@@ -47,8 +47,30 @@ The data, on observation had no missing values, irrelevant columns, duplicate ro
 - Ensure that data columns are labeled clearly and consistently for easy reference during analysis.
 
 
-Utilize Google Query to query the dataset within Google Sheets.
-Write queries to analyze sales performance by sales reps within each region for the years 2014 and 2015.
+### Exploratory Data Analysis
+---
+- I utilize Google Query to query the dataset within Google Sheets.
+  - I wrote queries to analyze sales performance by sales reps within each region for the years 2014 and 2015.
+    1. **Sales of Bnder and Pencil in 2015**
+
+       `=QUERY(A:H, "SELECT C,F,H WHERE (C= 'Binder' OR C= 'Pencil') AND F=2015", 1)`
+       
+    2. **Sales in Central and East regions in 2014**
+
+       `=QUERY(A:H, "SELECT A,F,H WHERE (A= 'Central' OR A= 'East') AND F=2014", 1)`
+
+    3. **Sales in August and September 2014**
+
+       `=QUERY(A:H, "SELECT E,F,H WHERE (E= 'Aug' OR E= 'Sep') AND F= 2014", 1)`
+
+    4. **Sales of items whose name(s) start with 'Pen', the sales rep, region(s) and year**
+
+       `=QUERY(A:H, "SELECT A,B,C,F,H WHERE (C LIKE 'Pen%') AND F= 2014", 1)`
+
+    5. **Query the sales rep who sold Pen set and Binder**
+
+       `=QUERY(A:H, "SELECT B, C WHERE (C= 'Pen Set' OR C= 'Binders')", 1)`
+       
 Use SQL-like syntax to filter, aggregate, and manipulate the data as needed to derive insights.
 Analysis and Visualization:
 
