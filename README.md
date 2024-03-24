@@ -16,11 +16,15 @@ Here, I documented all I learnt and practiced during my course at SkilHarvest_Bo
 
 ### Project Overview
 ---
-Using the Skilharvest_Stationary_Supplies dataset provides a comprehensive record of sales data for stationary supplies over the period of 2014 to 2015. This dataset offers valuable insights into the purchasing patterns, trends, and performance of stationary supplies within this timeframe. Analyzing this data can allow us to gather insights that enable compelling storytelling, understand the best performance metrics, and assist businesses in the stationary supplies industry, retailers, and analysts in making informed decisions regarding inventory management, pricing strategies, and marketing initiatives.
+The Stationary Supplies Dataset covers sales data from the years 2014 to 2015, providing valuable insights into the performance of Sales reps within three regions.
+
+This analysis was done with the aid of Googlesheets (which is a web-based spreadsheet application developed for its productivity within Google Drive. It provides a powerful and user-friendly platform for creating, editing, and collaborating on spreadsheets, making it a popular choice for individuals, teams, and organizations).
+
+It was queried using google query (a powerful feature within Google Sheets that provides a flexible and efficient way to analyze and manipulate data within Google Sheets, making it a valuable tool for data analysis, reporting, and visualization).
 
 ### Data Source
 ---
-The primary source of the data used here is 'Skilharvest_Stationary_Supplies.csv' as provided during the botcamp.
+The Stationary Supplies Dataset utilized in this analysis encompasses sales data from the years 2014 to 2015. This dataset was sourced from 'Skilharvest_Stationary_Supplies.csv', a reputable provider of comprehensive datasets in the retail industry.
 
 ### Tools Used
 ---
@@ -31,9 +35,32 @@ The primary source of the data used here is 'Skilharvest_Stationary_Supplies.csv
 
 ### Data Cleaning and Preparation
 ---
-In the initial data preparation phase, I performed the following tasks:
- 1. Data inspection
- 2. Data cleaning and formatting
+- I imported the dataset into Google Sheets.
+
+
+
+- I ensured that the dataset included sales data within  2014 and 2015 and covers information about sales reps within three regions.
+
+The data, on observation had no missing values, irrelevant columns, duplicate rows or inconsistencies.
+
+- I edited the dataset to allow the first row of my dataset become header. 
+- Ensure that data columns are labeled clearly and consistently for easy reference during analysis.
+
+
+Utilize Google Query to query the dataset within Google Sheets.
+Write queries to analyze sales performance by sales reps within each region for the years 2014 and 2015.
+Use SQL-like syntax to filter, aggregate, and manipulate the data as needed to derive insights.
+Analysis and Visualization:
+
+Perform data analysis using the queried results to identify trends, patterns, and outliers in sales performance.
+Create visualizations such as charts, graphs, and pivot tables to visualize the analyzed data and present key findings.
+Utilize Google Sheets' built-in functions and features for data analysis and visualization.
+Documentation and Reporting:
+
+Document the data cleaning, preparation, querying, and analysis process for future reference.
+Prepare a summary report or presentation using Google Docs or Google Slides to communicate the key findings and insights derived from the analysis.
+Share the report with relevant stakeholders or team members for review and feedback.
+By following these steps, you can effectively clean, prepare, query, analyze, and visualize the Stationary Supplies Dataset using Google Sheets and Google Query to derive valuable insights into sales performance across different regions and years.
 
 ### Exploratory Data Ananlsis (EDA)
 ---
