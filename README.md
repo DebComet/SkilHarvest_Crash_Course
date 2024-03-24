@@ -55,21 +55,34 @@ The data, on observation had no missing values, irrelevant columns, duplicate ro
 
        `=QUERY(A:H, "SELECT C,F,H WHERE (C= 'Binder' OR C= 'Pencil') AND F=2015", 1)`
        
+     ![assignment 1](https://github.com/DebComet/SkilHarvest_Crash_Course/assets/158510031/8e6961a9-6641-41e6-a7ee-0927e841d5c4)
+
     2. **Sales in Central and East regions in 2014**
 
        `=QUERY(A:H, "SELECT A,F,H WHERE (A= 'Central' OR A= 'East') AND F=2014", 1)`
 
+      ![assignment 2 pics](https://github.com/DebComet/SkilHarvest_Crash_Course/assets/158510031/c44dbb8f-5214-40e2-a06f-9298cd7a1fba)
+    
     3. **Sales in August and September 2014**
 
        `=QUERY(A:H, "SELECT E,F,H WHERE (E= 'Aug' OR E= 'Sep') AND F= 2014", 1)`
 
+      ![assignment 3 pics](https://github.com/DebComet/SkilHarvest_Crash_Course/assets/158510031/1c74bb29-723a-452c-9014-78ee943e0d46)
+    
     4. **Sales of items whose name(s) start with 'Pen', the sales rep, region(s) and year**
 
        `=QUERY(A:H, "SELECT A,B,C,F,H WHERE (C LIKE 'Pen%') AND F= 2014", 1)`
 
+      ![assignment 4 pics](https://github.com/DebComet/SkilHarvest_Crash_Course/assets/158510031/08cc6529-8e6b-4c35-9175-3c5978e22dad)
+
     5. **Query the sales rep who sold Pen set and Binder**
 
        `=QUERY(A:H, "SELECT B, C WHERE (C= 'Pen Set' OR C= 'Binders')", 1)`
+
+
+
+
+
        
 Use SQL-like syntax to filter, aggregate, and manipulate the data as needed to derive insights.
 Analysis and Visualization:
