@@ -31,7 +31,6 @@ The Stationary Supplies Dataset utilized in this analysis encompasses sales data
 - MS Excel for Data Cleaning [Download Here](https:/www.microsoft.com)
 - Google sheet (for querying and analysis)
 - Power BI (for reporting)
-- MS Powerpoint (for presentation)
 
 ### Data Cleaning and Preparation
 ---
@@ -108,6 +107,7 @@ I showed the following:
 
 
 ### Data Analysis
+---
 
 I included some basic lines of code, queries and DAX expressions during my analysis. They include:
 
@@ -124,7 +124,7 @@ I included some basic lines of code, queries and DAX expressions during my analy
 `=QUERY(A:H, "SELECT E,F,H WHERE (E= 'Aug' OR E= 'Sep') AND F= 2014", 1)`
 
 ### Results / Findings
-
+---
 Insight gotten from the analysis include:
   - **Sales Performance Trends**: The analysis reveals decrease in sales volumes between 2014 and 2015.
 
@@ -142,7 +142,7 @@ Insight gotten from the analysis include:
 
 
 ### Recommendations
-
+---
  1. Plan strategic sales based on region: Sales strategies based on the performance of each region should be made as gathered from the dataset. Identifying and capitalizing on regional 
     preferences, market trends, and customer behaviors are paramount to optimize sales efforts.
 
@@ -166,7 +166,7 @@ Insight gotten from the analysis include:
 
 
 ### Limitations
-
+---
 The limitations to my analysis are:
   1. Limited Time Frame: The dataset only covers sales data from the years 2014 to 2015. This limited time frame may not capture long-term trends or seasonal variations that could 
      influence sales performance.
