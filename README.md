@@ -96,17 +96,20 @@ The Exploratory Data Analysis (EDA) which involve exploring the Data to answer s
 ![assignment 8](https://github.com/DebComet/SkilHarvest_Crash_Course/assets/158510031/5d443eeb-8290-459e-a9a8-5df98a5f6dd7)
 
 I showed the following:
-  - Total number of Sales_rep  
-  - Total number of items sold
+  - Total disticnt number of Sales_rep  
+  - Total distinct number of items sold
   - Which item(s) is/are topsellers
-  - Which Sales_rep made the highest sales
+  - Which item sold highest by percentage
   - Overall sales trend
+  - Total sales
+  - Sales per month
 
 ![visuals](https://github.com/DebComet/SkilHarvest_Crash_Course/assets/158510031/9f4b51ab-1875-4e32-a9ef-315fee8ea042)
 
 
 ### Data Analysis
-I concluded some basic lines of code, queries and DAX expressions during my analysis.
+
+I included some basic lines of code, queries and DAX expressions during my analysis. They include:
 
 `=QUERY(A:H, "SELECT MIN(H))", 1)`
 
