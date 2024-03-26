@@ -95,7 +95,7 @@ The Exploratory Data Analysis (EDA) which involve exploring the Data to answer s
 - Total number of items sold
 - Which item(s) is/are topsellers
 - Which Sales_rep made the highest sales
-- Which year was the highest sales made
+- I showed the year that had the highest sales
 
 ![assignment 8](https://github.com/DebComet/SkilHarvest_Crash_Course/assets/158510031/5d443eeb-8290-459e-a9a8-5df98a5f6dd7)
   
