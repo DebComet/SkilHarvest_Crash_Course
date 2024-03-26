@@ -102,27 +102,89 @@ I showed the following:
   - Which Sales_rep made the highest sales
   - Overall sales trend
 
+![visuals](https://github.com/DebComet/SkilHarvest_Crash_Course/assets/158510031/9f4b51ab-1875-4e32-a9ef-315fee8ea042)
 
 
+### Data Analysis
+I concluded some basic lines of code, queries and DAX expressions during my analysis.
+
+`=QUERY(A:H, "SELECT MIN(H))", 1)`
+
+`=QUERY(A:H, "SELECT MAX(H)", 1)`
+
+`=QUERY(A:H, "SELECT AVG(H)", 1)`
+
+`=QUERY(A:H, "SELECT C,F,H WHERE (C= 'Binder' OR C= 'Pencil') AND F=2015", 1)`
+
+`=QUERY(A:H, "SELECT A,F,H WHERE (A= 'Central' OR A= 'East') AND F=2014", 1)`
+
+`=QUERY(A:H, "SELECT E,F,H WHERE (E= 'Aug' OR E= 'Sep') AND F= 2014", 1)`
+
+### Results / Findings
+
+Insight gotten from the analysis include:
+  - **Sales Performance Trends**: The analysis reveals decrease in sales volumes between 2014 and 2015.
+
+  - **Regional Disparities**: By comparing sales the data across the three regions, I identified disparities in sales performance which include variations in quantities sold, customer 
+      acquisition rates between regions.
+
+  - **Top Performing Sales Reps**: The dataset highlights top-performing sales representatives within the region with the highest sales based on metrics such as total sales revenue, 
+      sales growth.
+
+  - **Product Performance**: The analysis of item sales data reveal insights into the popularity and demand for different stationary supplies in 2014 and gadually declined as the year 
+      progessed. This could help identify best-selling item, region, and emerging trends in consumer preferences.
+
+  - **Identification of Opportunities and Challenges**: My analysis predicts uncovered opportunities for growth, expansion, or optimization within regions where less sales were made 
+      (East and West). Likewise, the challenges or obstacles to sales success, like competitive pressures, economic factors, and/or logistical issues, could be identified.
 
 
+### Recommendations
 
-Use SQL-like syntax to filter, aggregate, and manipulate the data as needed to derive insights.
-Analysis and Visualization:
+ 1. Plan strategic sales based on region: Sales strategies based on the performance of each region should be made as gathered from the dataset. Identifying and capitalizing on regional 
+    preferences, market trends, and customer behaviors are paramount to optimize sales efforts.
 
-Perform data analysis using the queried results to identify trends, patterns, and outliers in sales performance.
-Create visualizations such as charts, graphs, and pivot tables to visualize the analyzed data and present key findings.
-Utilize Google Sheets' built-in functions and features for data analysis and visualization.
-Documentation and Reporting:
+ 2. Training and Development: Targeted training and development programs should be offered for sales representatives to enhance their skills and effectiveness. Focusing on areas where 
+    performance may be lacking or where improvement opportunities have been identified through data analysis.
 
-Document the data cleaning, preparation, querying, and analysis process for future reference.
-Prepare a summary report or presentation using Google Docs or Google Slides to communicate the key findings and insights derived from the analysis.
-Share the report with relevant stakeholders or team members for review and feedback.
-By following these steps, you can effectively clean, prepare, query, analyze, and visualize the Stationary Supplies Dataset using Google Sheets and Google Query to derive valuable insights into sales performance across different regions and years.
+3. Incentive Programs: Implement incentive programs (such as bonuses, rewards, or recognition for top-performing reps) should be considered to motivate sales representatives and drive 
+   performance, especially to those who consistently exceed sales targets or demonstrate exceptional performance.
+
+ 4. Product Portfolio Optimization: The need to review product portfolio based on sales data cannot be overemphasized. This  is to identify high-demand items and underperforming item 
+    which would help in organizational decision to discontinue or reposition low-performing items and rather invest resources in promoting and expanding the sales of popular items.
+
+ 5. Cross-Regional Collaboration: Collaboration and knowledge sharing among sales teams across different regions needs be encouraged. Exchange of best practices, successful sales 
+    strategies, and lessons learned can drive overall sales performance improvement.
+
+ 6. Competitive Analysis: Competitive analysis to benchmark performance against competitors operating within the same regions can be done. This will help identify competitive strengths 
+    and weaknesses, and develop strategies to gain a competitive edge in the market.
+
+ 7. Continuous Monitoring and Evaluation: Ongoing monitoring and evaluation of sales performance metrics mechanism houd be estabished to regularly review and analyze sales data, track 
+    progress, identify emerging trends, and make informed adjustments to sales strategies and tactics as needed.
 
 
+### Limitations
 
+The limitations to my analysis are:
+  1. Limited Time Frame: The dataset only covers sales data from the years 2014 to 2015. This limited time frame may not capture long-term trends or seasonal variations that could 
+     influence sales performance.
 
+  2. Scope of Analysis: The dataset focuses specifically on sales data and may not include other relevant factors that could impact sales performance, such as marketing efforts, 
+     economic conditions, competitor activity, or changes in consumer preferences.
+
+  3. Regional Variations: While the dataset covers three regions, there may be significant differences in market dynamics, customer behavior, and competitive landscapes within each 
+     region. Failing to account for these variations could limit the effectiveness of region-specific recommendations.
+
+  4. Assumptions and Interpretations: Any analysis conducted on the dataset relies on certain assumptions and interpretations of the data. It's essential to acknowledge and validate 
+     these assumptions to ensure the reliability and validity of the analysis results.
+
+  5. External Factors: External factors beyond the dataset's scope, such as changes in market regulations, technological advancements, or unforeseen events (e.g., natural disasters, 
+     economic downturns), could influence sales performance but may not be captured in the analysis.
+
+  6. Data Privacy and Security: As a result of the nature of the dataset, there were some limitations in ensuring data security as per data protection regulations and confidentiality of 
+     sensitive information.
+
+  7. Sampling bias which occurs when the method used to collect a sample from a population systematically favors certain individuals or groups over others. In this analysis, the dataset 
+     being analyzed does not accurately represent the entire population it's meant to represent thereby resulting to a limitation.
 
 
 
