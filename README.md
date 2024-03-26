@@ -88,12 +88,17 @@ The data, on observation had no missing values, irrelevant columns, duplicate ro
 The Exploratory Data Analysis (EDA) which involve exploring the Data to answer some questions about the Data gave more insight such as:
 - Total number of Sales_rep
 - The region from where most Sales_reps resided
-- Total number of regions
-- Which region had the highest sales
+- I showed total number of regions and the region with the highest sales
+
+  ![visuals 1](https://github.com/DebComet/SkilHarvest_Crash_Course/assets/158510031/22fd15c3-5165-4036-9d46-0fad9f15eac8)
+  
 - Total number of items sold
 - Which item(s) is/are topsellers
 - Which Sales_rep made the highest sales
 - Which year was the highest sales made
+
+![assignment 8](https://github.com/DebComet/SkilHarvest_Crash_Course/assets/158510031/5d443eeb-8290-459e-a9a8-5df98a5f6dd7)
+  
 - Overall sales trend
 
 
