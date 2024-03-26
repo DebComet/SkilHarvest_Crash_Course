@@ -29,7 +29,7 @@ The Stationary Supplies Dataset utilized in this analysis encompasses sales data
 ### Tools Used
 ---
 - MS Excel for Data Cleaning [Download Here](https:/www.microsoft.com)
-- Google sheet (for Querying and analysis)
+- Google sheet (for querying and analysis)
 - Power BI (for reporting)
 - MS Powerpoint (for presentation)
 
@@ -44,13 +44,11 @@ The Stationary Supplies Dataset utilized in this analysis encompasses sales data
 The data, on observation had no missing values, irrelevant columns, duplicate rows or inconsistencies.
 
 - I edited the dataset to allow the first row of my dataset become header. 
+
 - Ensure that data columns are labeled clearly and consistently for easy reference during analysis.
 
-
-### Exploratory Data Analysis
----
-- I utilize Google Query to query the dataset within Google Sheets.
-  - I wrote queries to analyze sales performance by sales reps within each region for the years 2014 and 2015.
+- I utilized Google Query to query the dataset ensuring that the data can answer the some questions about the data such as: 
+  - Query to analyze sales performance by sales reps within each region for the years 2014 and 2015.
     1. **Sales of Bnder and Pencil in 2015**
 
        `=QUERY(A:H, "SELECT C,F,H WHERE (C= 'Binder' OR C= 'Pencil') AND F=2015", 1)`
@@ -85,7 +83,22 @@ The data, on observation had no missing values, irrelevant columns, duplicate ro
 
     ![assignment 6](https://github.com/DebComet/SkilHarvest_Crash_Course/assets/158510031/5f57bac9-6439-4dd0-97b2-1334ca0a5d1b)   
     
-       
+### Exploratory Data Ananlsis (EDA)
+---
+The Exploratory Data Analysis (EDA) which involve exploring the Data to answer some questions about the Data gave more insight such as:
+- Total number of Sales_rep
+- The region from where most Sales_reps resided
+- Total number of regions
+- Which region had the highest sales
+- Total number of items sold
+- Which item(s) is/are topsellers
+- Which Sales_rep made the highest sales
+- Which year was the highest sales made
+- Overall sales trend
+
+
+
+
 Use SQL-like syntax to filter, aggregate, and manipulate the data as needed to derive insights.
 Analysis and Visualization:
 
@@ -98,34 +111,6 @@ Document the data cleaning, preparation, querying, and analysis process for futu
 Prepare a summary report or presentation using Google Docs or Google Slides to communicate the key findings and insights derived from the analysis.
 Share the report with relevant stakeholders or team members for review and feedback.
 By following these steps, you can effectively clean, prepare, query, analyze, and visualize the Stationary Supplies Dataset using Google Sheets and Google Query to derive valuable insights into sales performance across different regions and years.
-
-### Exploratory Data Ananlsis (EDA)
----
-The Exploratory Data Analysis (EDA) involved exploring the Data to answer some questions about the Data such as:
-- Total number of Sales_rep
-- The region from where most Sales_reps resided
-- Total number of regions
-- Which region had the highest sales
-- Total number of items sold
-- Which item(s) is/are topsellers
-- Which Sales_rep made the highest sales
-- Which year was the highest sales made
-- Overall sales trend
-- Minimum, Maximum, Average and Count of sales
-
-
-![](assignment1.JPG)
-
-
-```Google sheets
-
-SELECT *
-From Table 1
-WHERE H = Positive integers
-
-```
-
-
 
 
 
